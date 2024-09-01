@@ -95,7 +95,7 @@ main {
 section {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 15px;
 	scroll-margin-top: 60px;
 	width: 100%;
@@ -111,6 +111,7 @@ section div {
 }
 
 section div.info-container {
+	justify-self: center;
 	justify-content: space-between;
 	text-align: center;
 	width: 100%;
