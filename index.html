@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<title>FrostEvents99 - Gerenciamento de Eventos</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li id="li-home" class='active'><a href="#home">Home</a></li>
+				<li id='li-features'><a href="#features">Recursos</a></li>
+				<li id='li-testimonials'><a href="#testimonials">Depoimentos</a></li>
+				<li id="li-contact"><a href="#contact">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<!-- Sessão inicial -->
+		<section id="home">
+			<span id="alert">
+				<i class="bi bi-exclamation-triangle-fill"></i>
+				Serviço meramente ilustrativo!
+			</span>
+			<div>
+				<h1>Gerencie Seus Eventos com <span class="highlight">FrostEvents99</span></h1>
+				<p>
+					O gerenciamento de eventos nunca foi tão simples e eficiente.
+				</p>
+			</div>
+
+			<button>Experimente Gratuitamente</button>
+		</section>
+
+		<!-- Sessão de recursos -->
+		<section id="features">
+			<h2>Principais Recursos</h2>
+			<div class="info-container">
+				<div class="feature">
+					<i class="bi bi-calendar2-check"></i>
+					<h3>Planejamento Simplificado</h3>
+					<p>
+						Crie e gerencie cronogramas, orçamentos e tarefas com facilidade.
+					</p>
+				</div>
+				<div class="feature">
+					<i class="bi bi-chat-left-dots"></i>
+					<h3>Comunicação Eficiente</h3>
+					<p>
+						Comunique-se com os participantes e fornecedores diretamente pela plataforma.
+					</p>
+				</div>
+				<div class="feature">
+					<i class="bi bi-pie-chart"></i>
+					<h3>Análise e Relatórios</h3>
+					<p>
+						Acompanhe o desempenho do evento com relatórios detalhados e feedback.
+					</p>
+				</div>
+
+				<p>
+					Com <span class="highlight">FrostEvents99</span>, você tem tudo o que precisa para uma gestão de eventos sem esforço.
+				</p>
+			</div>
+		</section>
+
+		<!-- Sessão de depoimentos  -->
+		<section id="testimonials">
+			<h2>Depoimentos</h2>
+			<div class="info-container">
+				<div class="testimonial-container">
+					<div class="testimonial">
+						<div>
+							<i class="bi bi-person-circle"></i>
+							<h3>Kauan Lopes</h3>
+						</div>
+						<p>
+							"FrostEvents transformou a maneira como organizamos nossos eventos. Muito mais simples e eficiente!"
+						</p>
+					</div>
+					<div class="testimonial focus">
+						<div>
+							<i class="bi bi-person-circle"></i>
+							<h3>Ana Beatriz</h3>
+						</div>
+						<p>
+							"A plataforma é intuitiva e faz a gestão de eventos parecer fácil."
+						</p>
+					</div>
+					<div class="testimonial">
+						<div>
+							<i class="bi bi-person-circle"></i>
+							<h3>Bruno Vasconcelos</h3>
+						</div>
+						<p>
+							"A experiência com a plataforma foi excelente. Recomendo para todos!"
+						</p>
+					</div>
+				</div>
+
+				<div class="controls">
+					<button id="left">
+						<i class="bi bi-arrow-left-circle-fill"></i>
+					</button>
+					<button id="right">
+						<i class="bi bi-arrow-right-circle-fill"></i>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- Sessão de contato -->
+		<section id="contact">
+			<h2>Fale Conosco</h2>
+			<form id="contact-form" action="#">
+				<div>
+					<label for="name">Nome</label>
+					<input type="text" id="name" name="name" required>
+				</div>
+
+				<div>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required>
+				</div>
+
+				<div>
+					<textarea id="message" name="message" placeholder="Mensagem"required></textarea>
+				</div>
+
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>
+			&copy; 2024 <span class="highlight">FrostEvents99</span>. Todos os direitos reservados.
+		</p>
+	</footer>
+</body>
+<script src="script.js" type="text/javascript" charset="utf-8"></script>
+</html>
