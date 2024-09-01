@@ -95,6 +95,7 @@ main {
 section {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	gap: 15px;
 	scroll-margin-top: 60px;
 	width: 100%;
